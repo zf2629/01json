@@ -1,0 +1,44 @@
+[
+  {
+    "concurrentRate": "",
+    "contentType": "",
+    "enabledCookieJar": false,
+    "header": "",
+    "id": 1784807974604,
+    "jsLib": "",
+    "lastUpdateTime": 1785227281308,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "name": "四川话",
+    "url": "https://dds.dui.ai/runtime/v1/synthesize?voiceId=ppangf_csn&text={{java.encodeURI(java.encodeURI(speakText))}}&speed=1&volume=100&audioType=wav"
+  },
+  {
+    "concurrentRate": "0",
+    "contentType": "",
+    "enabledCookieJar": false,
+    "header": "",
+    "id": 1784807893627,
+    "jsLib": "",
+    "lastUpdateTime": 1784807893627,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "name": "度逍遥",
+    "url": "http://tts.baidu.com/text2audio,{\n\"method\": \"POST\",\n\"body\": \"tex={{java.encodeURI(java.encodeURI(speakText))}}&spd={{(speakSpeed + 5) / 10 + 4}}&per=3&cuid=baidu_speech_demo&idx=1&cod=2&lan=zh&ctp=1&pdt=505&vol=5&aue=6&pit=5&_res_tag_=audio\"\n}"
+  },
+  {
+    "concurrentRate": "0",
+    "contentType": "",
+    "enabledCookieJar": false,
+    "header": "",
+    "id": 1784808041595,
+    "jsLib": "",
+    "lastUpdateTime": 1785227298155,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "name": "粤语",
+    "url": "http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=iflytekXiaomei&speedDelta=0&pitchDelta=0&volumeDelta=0&text={{java.encodeURI(java.encodeURI(speakText))}}\n"
+  }
+]
