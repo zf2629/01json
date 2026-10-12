@@ -250,11 +250,11 @@
 				} catch (e) {};
 			}, input, be_task);
 		}, be_task);
-	} else if (sel.includes('科兴')) {
+	} else if (sel.includes('ZF2629')) {
 		return $('hiker://empty#gameTheme##noRecordHistory##noHistory#').rule(() => {
-			setPageTitle('科兴三针短剧');
+			setPageTitle('ZF2629');
 			let d = []
-			require('http://123.56.105.145/weisyr/H5视频播放器.js');
+			require('./H5视频播放器.js');
 			H5视频播放器(d)
 			setResult(d)
 		})
