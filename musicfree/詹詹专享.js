@@ -596,11 +596,11 @@ async function getMusicInfo(musicItem) {
 }
 
 module.exports = {
-  platform: "ZF2629-SVIP音源",
+  platform: "詹詹专享",
   author: "ZF2629",
   version: "8.8.8",
   appVersion: ">0.1.0-alpha.0",
-  srcUrl: "https://jsnzkpg.com",
+  srcUrl: "https://zf2629.github.io/",
   cacheControl: "no-cache",
   hints: {
     importMusicSheet: [
